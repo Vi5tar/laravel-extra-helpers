@@ -1,0 +1,53 @@
+{
+    "name": "vi5tar/laravel-extra-helpers",
+    "description": "Additional global helper functions in Laravel.",
+    "keywords": [
+        "vi5tar",
+        "laravel-extra-helpers"
+    ],
+    "homepage": "https://github.com/vi5tar/laravel-extra-helpers",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Travis Swiers",
+            "email": "tswiers@outreach.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vi5tar\\LaravelExtraHelpers\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vi5tar\\LaravelExtraHelpers\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vi5tar\\LaravelExtraHelpers\\LaravelExtraHelpersServiceProvider"
+            ],
+            "aliases": {
+                "LaravelExtraHelpers": "Vi5tar\\LaravelExtraHelpers\\LaravelExtraHelpersFacade"
+            }
+        }
+    }
+}
