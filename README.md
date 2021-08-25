@@ -1,10 +1,8 @@
-# Very short description of the package
+# Additional global helper functions for Laravel.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/vi5tar/laravel-extra-helpers.svg?style=flat-square)](https://packagist.org/packages/vi5tar/laravel-extra-helpers)
 [![Total Downloads](https://img.shields.io/packagist/dt/vi5tar/laravel-extra-helpers.svg?style=flat-square)](https://packagist.org/packages/vi5tar/laravel-extra-helpers)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vi5tar/laravel-extra-helpers/PHP%20Composer?label=build/tests)](https://github.com/vi5tar/laravel-extra-helpers/actions)
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
 ## Installation
 
@@ -12,12 +10,6 @@ You can install the package via composer:
 
 ```bash
 composer require vi5tar/laravel-extra-helpers
-```
-
-## Usage
-
-```php
-// Usage description here
 ```
 
 ### Testing

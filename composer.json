@@ -1,6 +1,6 @@
 {
     "name": "vi5tar/laravel-extra-helpers",
-    "description": "Additional global helper functions in Laravel.",
+    "description": "Additional global helper functions for Laravel.",
     "keywords": [
         "vi5tar",
         "laravel-extra-helpers"
