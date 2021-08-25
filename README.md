@@ -1,7 +1,8 @@
 # Additional global helper functions for Laravel.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vi5tar/laravel-extra-helpers.svg?style=flat-square)](https://packagist.org/packages/vi5tar/laravel-extra-helpers)
-[![Total Downloads](https://img.shields.io/packagist/dt/vi5tar/laravel-extra-helpers.svg?style=flat-square)](https://packagist.org/packages/vi5tar/laravel-extra-helpers)
+[![Latest Stable Version](http://poser.pugx.org/vi5tar/laravel-extra-helpers/v)](https://packagist.org/packages/vi5tar/laravel-extra-helpers)
+[![Total Downloads](http://poser.pugx.org/vi5tar/laravel-extra-helpers/downloads)](https://packagist.org/packages/vi5tar/laravel-extra-helpers)
+[![Latest Unstable Version](http://poser.pugx.org/vi5tar/laravel-extra-helpers/v/unstable)](https://packagist.org/packages/vi5tar/laravel-extra-helpers)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vi5tar/laravel-extra-helpers/PHP%20Composer?label=build/tests)](https://github.com/vi5tar/laravel-extra-helpers/actions)
 
 ## Installation
