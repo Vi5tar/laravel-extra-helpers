@@ -2,9 +2,9 @@
 
 if (!function_exists('array_diff_recursive')) {
     /**
-     * Credit: https://stackoverflow.com/a/29526501/13156571
-     * 
      * Returns the difference of the arrays recursively.
+     * 
+     * Credit: https://stackoverflow.com/a/29526501/13156571
      */
     function array_diff_recursive(array $arr1, array $arr2): array
     {
@@ -49,5 +49,22 @@ if (!function_exists('possessive')) {
     function possessive(string $string): string
     {
 		  return $string.'\''.($string[strlen($string) - 1] !== 's' ? 's' : '');
+    }
+}
+
+if (!function_exists('sort_by_string_length')) {
+    /**
+     * Sort an array of strings by length of string. Shortest to longest.
+     * 
+     * Credit: https://stackoverflow.com/a/838239/13156571
+     * 
+     * @param $array string[]
+     */
+    function sort_by_string_length(array $array): array
+    {
+        usort($array, function ($valueA, $valueB) {
+            return strlen($valueA)-strlen($valueB);
+        });
+        return $array;
     }
 }
